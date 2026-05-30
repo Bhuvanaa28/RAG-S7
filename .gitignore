@@ -8,10 +8,22 @@ wheels/
 
 # Virtual environments
 .venv
-.env
 llm_gatewayV7/
 *.zip
-S7code
 .cache
 ollama
 __MACOSX/
+
+# secrets / env
+.env
+.env.*
+!.env.example
+
+# runtime state
+state/
+sandbox/
+usage.json
+
+# os
+.DS_Store
+*.txt
