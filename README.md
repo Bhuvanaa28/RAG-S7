@@ -23,8 +23,7 @@ When is mom's birthday?
 - Index the file papers/attention.md and tell me what the three key contributions of the Transformer architecture are according to this paper.
 
 - Run 1: Index every .md file under papers/. Confirm how many chunks were indexed in total.
-<br>
-    Run 2 (fresh process, persisted state): Across the papers I have indexed, what do they say about chain-of-thought reasoning?
+<br> Run 2 (fresh process, persisted state): Across the papers I have indexed, what do they say about chain-of-thought reasoning?
 
 - Across these papers, how do they handle the credit assignment problem?
 
@@ -37,9 +36,7 @@ When is mom's birthday?
 - Return the artist who has the most songs in the songs_corpus. Each song name startswith artist name.
 
 - Run1: Index billie-eilish-birds-of-a-feather and billie-eilish-wildflower in songs_corpus
-<br>
-    Run2: Compare the lyrics of billie-eilish-birds-of-a-feather and billie-eilish-wildflower
+<br> Run2: Compare the lyrics of billie-eilish-birds-of-a-feather and billie-eilish-wildflower
 
 - Run1: Index doechii-anxiety and doechii-denial-is-a-river .md files in songs_corpus
-<br>
-    Run2: Which of the songs by doechii is more appropriate for a sad mood and expresses negative emotions?
+<br> Run2: Which of the songs by doechii is more appropriate for a sad mood and expresses negative emotions?
