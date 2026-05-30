@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+llm_gatewayV7/
+*.zip
+S7code
+.cache
+ollama
+__MACOSX/

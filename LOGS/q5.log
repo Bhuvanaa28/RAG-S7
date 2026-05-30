@@ -1,0 +1,49 @@
+Enter your query (or 'exit' to quit): Index the file papers/attention.md and tell me what the three key contributions of the Transformer architecture are according to this paper.
+
+══════════════════════════════════════════════════════════════════════════════
+run d3c7d381  ─  query: Index the file papers/attention.md and tell me what the three key contributions of the Transformer architecture are according to this paper.
+══════════════════════════════════════════════════════════════════════════════
+[mcp] loaded 11 tools: ['web_search', 'fetch_url', 'get_time', 'currency_convert', 'read_file', 'list_dir', 'create_file', 'update_file', 'edit_file', 'index_document', 'search_knowledge']
+
+─── iter 1 ─────────────────────────────────────────────
+[memory.read]   8 hits
+[perception]    ✓ g:a205bf1a — Make the content of papers/attention.md searchable
+[perception]    ○ g:ca61bb42 — Query the knowledge base for the three key contributions of the Transformer architecture described in papers/attention.md  attach=art:53676fe2e4c3b567
+[perception]    ○ g:c20c5805 — Summarise the three key contributions of the Transformer architecture from the paper
+[attach]        art:53676fe2e4c3b567 (10774 bytes)
+[attach]        art:53676fe2e4c3b567 (10774 bytes)
+[decision]      ANSWER: Based on the abstract of the paper "Attention Is All You Need" provided in `papers/attention.md`, the three key contributions of the Transformer architecture are:
+
+1.  **Sole Reliance on Attention Mec...
+
+─── iter 2 ─────────────────────────────────────────────
+[memory.read]   8 hits
+[perception]    ✓ g:a205bf1a — Make the content of papers/attention.md searchable
+[perception]    ✓ g:ca61bb42 — Query the knowledge base for the three key contributions of the Transformer architecture described in papers/attention.md
+[perception]    ○ g:c20c5805 — Summarise the three key contributions of the Transformer architecture from the paper  attach=art:53676fe2e4c3b567
+[attach]        art:53676fe2e4c3b567 (10774 bytes)
+[decision]      ANSWER: Based on the abstract of the paper "Attention Is All You Need," the three key contributions of the Transformer architecture are:
+
+1.  **Attention-Only Architecture:** The Transformer is a novel networ...
+
+─── iter 3 ─────────────────────────────────────────────
+[memory.read]   8 hits
+[perception]    ✓ g:a205bf1a — Make the content of papers/attention.md searchable
+[perception]    ✓ g:ca61bb42 — Query the knowledge base for the three key contributions of the Transformer architecture described in papers/attention.md
+[perception]    ✓ g:c20c5805 — Summarise the three key contributions of the Transformer architecture from the paper
+
+[done] all 3 goals satisfied
+
+══════════════════════════════════════════════════════════════════════════════
+══════════════════════════════════════════════════════════════════════════════
+
+
+[S7 Agent] Final Answer:
+Based on the abstract of the paper "Attention Is All You Need," the three key contributions of the Transformer architecture are:
+
+1.  **Attention-Only Architecture:** The Transformer is a novel network architecture based solely on attention mechanisms, which allows it to dispense with recurrent (RNNs) and convolutional (CNNs) neural      
+networks entirely.
+2.  **Improved Parallelization:** By removing the sequential nature of recurrence, the architecture is significantly more parallelizable, which leads to more efficient training.
+3.  **Superior Performance and Efficiency:** The model achieves state-of-the-art results on machine translation tasks (such as WMT 2014 English-to-German and English-to-French) while requiring significantly    
+less training time and computational cost compared to previous models.
+══════════════════════════════════════════════════════════════════════════════
